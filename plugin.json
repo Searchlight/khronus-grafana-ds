@@ -1,0 +1,36 @@
+{
+  "name": "Khronus",
+  "id": "searchlight-khronus-datasource",
+  "type": "datasource",
+
+  "staticRoot": ".",
+
+  "partials": {
+    "config": "public/app/plugins/datasource/khronus/partials/config.html"
+  },
+
+  "metrics": true,
+  "annotations": true,
+
+  "info": {
+    "description": "Khronus datasource",
+    "author": {
+      "name": "Searchlight",
+      "url": "http://github.com/Searchlight"
+    },
+    "logos": {
+      "small": "src/img/simpleJson_logo.svg",
+      "large": "src/img/simpleJson_logo.svg"
+    },
+    "links": [
+      {"name": "GitHub", "url": "https://github.com/Searchlight/khronus-grafana-datasource"}
+      ],
+    "version": "0.0.1",
+    "updated": "2016-05-28"
+  },
+
+  "dependencies": {
+    "grafanaVersion": "3.x.x",
+    "plugins": [ ]
+  }
+}
